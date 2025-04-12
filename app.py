@@ -3,7 +3,7 @@ import json
 
 # Load nutrition data from the JSON file
 def load_nutrition_data():
-    with open('data/nutrition_data.json', 'r') as file:
+    with open('nutrition_data.json', 'r') as file:
         data = json.load(file)
     return data
 
